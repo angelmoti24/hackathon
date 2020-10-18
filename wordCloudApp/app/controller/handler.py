@@ -54,7 +54,7 @@ def wordcloud(dataset):
     stopwords = sw.words("spanish")+ ["rt","https","xaguzar2","bbva","hola","peruano","año","mex","anos","vibqpmlgsg"]
     data=pd.read_pickle(f"datasets/{dataset}.pkl")
     data["cleanText"] = data.text.map(clean_text)
-    imagen_act=cv2.imread(f"masks/{datasets}.png")
+    imagen_act=cv2.imread(f"masks/{dataset}.png")
     colores_imagen = ImageColorGenerator(imagen_act)
     wordcloud = WordCloud(mask=imagen_act,
                         max_font_size=200,
