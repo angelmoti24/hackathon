@@ -55,10 +55,9 @@ def wordcloud(dataset):
     data=pd.read_pickle(f"datasets/{dataset}.pkl")
     data["cleanText"] = data.text.map(clean_text)
     imagen_act=cv2.imread(f"masks/{dataset}.png")
-    colores_imagen = ImageColorGenerator(imagen_act)
     wordcloud = WordCloud(mask=imagen_act,
                         max_font_size=200,
                         background_color="#393d3f",
                         colormap="Blues"
                         ).generate(text_cloud)
-    return wordcloud.recolor(color_func=colores_imagen)
+    return wordcloud
