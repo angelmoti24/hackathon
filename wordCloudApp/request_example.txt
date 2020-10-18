@@ -1,0 +1,13 @@
+curl -i -X POST -H 'Content-Type: application/json' -d '{
+    "dataset": "maps"
+}' localhost:5000/wordcloud%
+
+
+curl -i -X POST -H 'Content-Type: application/json' -d '{
+    "dataset": "twitter"
+}' localhost:5000/wordcloud%
+
+
+curl -i -X POST -H 'Content-Type: application/json' -d '{
+    "dataset": "instagram"
+}' localhost:5000/wordcloud%
