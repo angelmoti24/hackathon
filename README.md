@@ -8,7 +8,7 @@ Authors:
 
 | Name                        | Occupation               | Contact |
 |-----------------------------|--------------------------|---------|
-| Alejandra                   | Student                   ||
+| Alejandra Estrada Alvarado  | Student                   ||
 | Daniel Valierra Iparrea     | AI & High Tech Specialist ||
 | Fernando Barranco Rodríguez | AI & High Tech Specialist ||
 | Ivan Ortega Victoriano      | AI & High Tech Specialist ||
